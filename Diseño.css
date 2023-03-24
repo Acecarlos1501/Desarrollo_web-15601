@@ -1,0 +1,25 @@
+body{
+    background-image: url('craneo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: antiquewhite;
+}
+
+
+h3{
+    font-weight:800;
+    font-size: 50px;
+    position: relative;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 25px; /*,lfefef*/
+    height: 25px;
+    background-image: url(hombre-arana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

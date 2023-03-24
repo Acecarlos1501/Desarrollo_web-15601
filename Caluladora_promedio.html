@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones</title>
+    <script type="text/javascript" src="./JS/Calificaciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/Calculadora.css" media="screen">
+</head>
+<body>
+    <label for="toggle" id="lable_toggle" onclick="toggleDarkMode()"><i class="fa-solid fa-moon"></i></label>
+    <h1>Calificaciones del alumno</h1>
+    <p>Primera calificacion:</p>
+    <input type="number" id="cal1" name="Calificacion1"/>
+    <p>Segunda calificacion:</p>
+    <input type="number" id="cal2" name="Calificacion2"/>
+    <p>Tercera calificacion:</p>
+    <input type="number" id="cal3" name="Calificacion3"/>
+    <br><br>
+    <button type="button" onclick="Calificaciones()">Calcular</button>
+    <br><br>
+    <p id="calificacion"></p>
+</body>
+</html>
