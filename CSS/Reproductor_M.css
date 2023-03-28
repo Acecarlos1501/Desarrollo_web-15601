@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ebf786;
+  
+}
+
+#player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #play-pause-btn {
+    margin: 10px;
+  }
+  
+  #seek-bar {
+    width: 50%;
+  }
+  
+  #skip-btn {
+    margin: 10px;
+  }
+  
+  #file-input {
+    margin: 10px;
+  }
+  .dark-mode {
+    color: #fff;
+      background-color: #131419;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+  }
+  
+  
+  
+  #toggle{
+      display: none;
+  }
+  #lable_toggle{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 2em;
+      color: blueviolet;
+  }
+  
+  .dark{
+      color: azure;
+      background-color: #333;
+      transition: all 1.5ms ease;
+  }
+  label{
+      color: #fff;
+  }
+  
